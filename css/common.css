@@ -1,0 +1,33 @@
+/*
+* @Author: Marte
+* @Date:   2017-06-06 15:18:22
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-06-07 15:29:48
+*/
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 12px;
+  background: url(../image/background.png); }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: ''; }
+
+.clearfix:after {
+  clear: both; }
+
+.push-L {
+  float: left; }
+
+.push-R {
+  float: right; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
