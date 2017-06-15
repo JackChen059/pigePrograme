@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-06-06 15:18:22
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-06-07 15:29:48
+* @Last Modified time: 2017-06-12 16:21:08
 */
 body {
   height: 100%;
@@ -31,3 +31,10 @@ li {
 
 a {
   text-decoration: none; }
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-left: 4px solid #5b0906;
+  border-bottom: 4px solid transparent; }

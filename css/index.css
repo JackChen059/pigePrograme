@@ -2,37 +2,415 @@
 * @Author: Marte
 * @Date:   2017-06-07 13:57:10
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-06-07 15:21:07
+* @Last Modified time: 2017-06-12 16:27:42
 */
+.navLink {
+  position: relative;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #5b0906; }
+  .navLink .linkName {
+    border-bottom: 3px solid #5b0906;
+    padding-bottom: 8px;
+    position: absolute; }
+    .navLink .linkName .square {
+      width: 14px;
+      height: 14px;
+      background: #5b0906; }
+    .navLink .linkName span {
+      padding-left: 12px;
+      font-size: 15px; }
+
 .header {
   height: 174px;
   width: 100%;
-  background: url(../image/sbg.png); }
+  background: url(../image/PGbg.png); }
   .header .top {
     margin: 0 auto;
     width: 1000px; }
-    .header .top .link ul {
-      background: #7e1f1b;
-      margin-left: 13px;
-      padding-right: 12px;
-      padding-left: 12px;
-      border-bottom-left-radius: 4px;
-      border-bottom-right-radius: 4px; }
-      .header .top .link ul li {
-        float: right;
-        padding: 10px 6px;
-        font-size: 12px; }
-        .header .top .link ul li a {
-          color: #fff; }
+    .header .top .link {
+      padding-right: 20px; }
+      .header .top .link ul {
+        background: #7e1f1b;
+        margin-left: 13px;
+        padding-right: 12px;
+        padding-left: 12px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px; }
+        .header .top .link ul li {
+          float: right;
+          padding: 10px 6px;
+          font-size: 12px; }
+          .header .top .link ul li a {
+            color: #fff; }
     .header .top .logo {
       margin-top: 45px; }
-    .header .top .logo-word {
-      margin-top: 25px;
-      margin-left: 10px;
-      border-left: 1px solid black; }
-      .header .top .logo-word p {
+      .header .top .logo .logo-word {
+        margin-top: 25px;
+        margin-left: 10px;
+        border-left: 1px solid black; }
+        .header .top .logo .logo-word p {
+          font-size: 20px;
+          padding-left: 15px;
+          font-weight: 600; }
+          .header .top .logo .logo-word p span {
+            color: red; }
+    .header .top .callPhone {
+      margin-top: 53px;
+      padding-right: 49px; }
+      .header .top .callPhone .phoneNum {
+        padding-top: 10px; }
+        .header .top .callPhone .phoneNum span {
+          font-size: 14px;
+          padding-top: 10px; }
+        .header .top .callPhone .phoneNum p {
+          font-size: 20px;
+          padding-top: 4px;
+          color: #5b0906; }
+
+.nav {
+  background: url(../image/xbg.png);
+  height: 46px;
+  width: 100%; }
+  .nav ul {
+    margin: 14px auto;
+    width: 1000px;
+    height: 100%; }
+    .nav ul li {
+      float: left;
+      padding-right: 45px; }
+      .nav ul li a {
+        font-size: 14px;
+        color: #fff; }
+
+.phoPlay {
+  height: 408px;
+  width: 100%;
+  background: green; }
+  .phoPlay img {
+    width: 100%; }
+
+.product {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 10px; }
+  .product .searCont {
+    box-sizing: border-box;
+    border: 1px solid #afaeae;
+    padding-left: 5px;
+    font-size: 13px;
+    height: 30px;
+    width: 288px;
+    outline: medium; }
+  .product .searBtn {
+    height: 30px;
+    width: 65px;
+    background: #5b0906;
+    color: #fff;
+    border: 0; }
+  .product .hotSear ul li {
+    float: left;
+    padding-left: 7px;
+    padding-top: 11px; }
+    .product .hotSear ul li a {
+      color: #000; }
+  .product .proCont {
+    width: 210px;
+    margin-top: 16px;
+    padding-bottom: 6px;
+    background: url(../image/proList.png); }
+    .product .proCont .proList {
+      width: 198px;
+      margin: 0 auto;
+      padding-bottom: 30px;
+      margin-top: 44px;
+      background: #fff1d4; }
+      .product .proCont .proList .ListShow {
+        padding-top: 14px;
+        padding-bottom: 20px;
+        margin: 0 auto; }
+        .product .proCont .proList .ListShow h1 {
+          margin: 0 auto;
+          height: 35px;
+          width: 176px;
+          line-height: 32px;
+          text-align: center;
+          font-size: 14px;
+          background: url(../image/border.png); }
+        .product .proCont .proList .ListShow ul {
+          padding-left: 16px; }
+          .product .proCont .proList .ListShow ul li {
+            padding-top: 14px; }
+            .product .proCont .proList .ListShow ul li span {
+              padding-left: 12px; }
+  .product .proPho {
+    margin-left: 22px;
+    margin-top: 16px;
+    width: 768px; }
+    .product .proPho .phoBox ul {
+      margin-right: -25px; }
+      .product .proPho .phoBox ul li {
+        float: left;
+        height: 240px;
+        width: 242px;
+        padding-top: 12px;
+        padding-right: 20px; }
+        .product .proPho .phoBox ul li p {
+          text-align: center;
+          padding-top: 21px; }
+
+.cooper {
+  height: 348px;
+  width: 100%;
+  background: url(../image/Mbg.png); }
+  .cooper .cooCont {
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto; }
+    .cooper .cooCont .cooPho {
+      margin-top: 6px;
+      margin-left: 425px; }
+    .cooper .cooCont .contPho {
+      padding-top: 15px; }
+      .cooper .cooCont .contPho ul li {
+        float: left;
+        margin-left: 7px; }
+
+.sucCase {
+  width: 1000px;
+  margin: 72px auto; }
+  .sucCase .caseTop {
+    margin-top: -25px; }
+  .sucCase .casePho {
+    width: 100%;
+    height: 420px; }
+    .sucCase .casePho ul {
+      margin-top: 20px; }
+      .sucCase .casePho ul li {
+        float: left;
+        margin-right: 9px; }
+        .sucCase .casePho ul li p {
+          height: 35px;
+          text-align: center;
+          padding-top: 20px; }
+  .sucCase .problem {
+    margin-top: 45px; }
+    .sucCase .problem .line {
+      width: 100%;
+      height: 1px;
+      background: #5b0906; }
+      .sucCase .problem .line p {
+        height: 3px;
+        width: 50px;
+        background: #5b0906; }
+    .sucCase .problem .people {
+      margin-top: 10px;
+      margin-left: -50px; }
+    .sucCase .problem .proShow p {
+      font-size: 30px;
+      margin-top: 27px;
+      color: #5b0906; }
+    .sucCase .problem .proShow .proChoose {
+      height: 123px;
+      width: 425px;
+      margin-top: 20px;
+      margin-left: 15px;
+      background: url(../image/Choosebg.png);
+      text-align: center; }
+      .sucCase .problem .proShow .proChoose label {
         font-size: 20px;
-        padding-left: 15px;
-        font-weight: 600; }
-        .header .top .logo-word p span {
-          color: red; }
+        color: white;
+        line-height: 50px;
+        margin-left: 25px; }
+        .sucCase .problem .proShow .proChoose label input {
+          height: 18px;
+          width: 18px; }
+    .sucCase .problem .proShow .proWord {
+      font-size: 20px;
+      margin-left: 35px; }
+
+.midShow {
+  height: 136px;
+  width: 100%;
+  background: url(../image/XMbg.png); }
+  .midShow .midSword {
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 18px;
+    color: #fff; }
+    .midShow .midSword .wordPig {
+      font-size: 46.5px; }
+      .midShow .midSword .wordPig span {
+        color: #fff001; }
+    .midShow .midSword .wordEn {
+      font-size: 15px;
+      margin-top: 12px; }
+    .midShow .midSword .wordTel {
+      margin-right: 120px;
+      font-size: 24px;
+      padding: 8px 0;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff; }
+
+.work {
+  width: 100%; }
+  .work .workShow {
+    width: 1000px;
+    margin: 0 auto;
+    padding-left: 6px;
+    margin-top: 30px; }
+    .work .workShow .showB {
+      padding-bottom: 35px; }
+      .work .workShow .showB .wordOne {
+        width: 475px;
+        margin-left: 18px;
+        padding-top: 16px; }
+        .work .workShow .showB .wordOne h1 {
+          color: #5b0906;
+          font-size: 20px; }
+        .work .workShow .showB .wordOne p {
+          font-size: 14px;
+          color: #474646;
+          padding-bottom: 12px;
+          border-bottom: 1px dashed #5b0906; }
+        .work .workShow .showB .wordOne div {
+          padding-top: 10px;
+          color: #454141;
+          font-size: 14px;
+          line-height: 25px; }
+    .work .workShow .askTel {
+      height: 140px;
+      width: 100%;
+      background: url(../image/XXbg.png); }
+      .work .workShow .askTel p {
+        font-size: 25px;
+        color: red;
+        margin-left: 95px;
+        margin-top: 25px; }
+      .work .workShow .askTel span {
+        font-size: 34px;
+        color: #fff;
+        margin-right: 32px;
+        margin-top: 25px; }
+      .work .workShow .askTel input {
+        height: 44px;
+        width: 142px;
+        font-size: 20px;
+        margin-left: 145px;
+        margin-top: 12px;
+        background: #5b0906;
+        color: #fff;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer; }
+      .work .workShow .askTel big {
+        font-size: 25px;
+        color: #ffe401;
+        margin-top: 20px;
+        margin-right: 40px; }
+    .work .workShow .goto {
+      width: 700px;
+      height: 300px;
+      margin-top: 50px; }
+      .work .workShow .goto img {
+        margin-top: 20px; }
+      .work .workShow .goto .goWord {
+        margin-top: 30px;
+        width: 400px; }
+        .work .workShow .goto .goWord p {
+          font-size: 14px;
+          color: #000;
+          width: 400px; }
+        .work .workShow .goto .goWord div {
+          margin-top: 16px;
+          color: #434242;
+          width: 370px;
+          line-height: 22px; }
+    .work .workShow .quality {
+      width: 260px;
+      margin-top: 50px; }
+      .work .workShow .quality .qualiPho {
+        margin-top: 20px;
+        margin-left: 32px; }
+      .work .workShow .quality span {
+        margin-top: 135px; }
+
+.answer {
+  width: 100%;
+  margin-top: 30px; }
+  .answer .commonPho {
+    height: 245px;
+    width: 100%;
+    background: url(../image/bsbg.png); }
+    .answer .commonPho .comShow {
+      width: 1000px;
+      margin: 20px auto; }
+      .answer .commonPho .comShow .showCom {
+        margin-right: 9px; }
+        .answer .commonPho .comShow .showCom p {
+          text-align: center;
+          padding-top: 12px; }
+  .answer .ask {
+    width: 1000px;
+    margin: 50px auto; }
+    .answer .ask .know {
+      width: 300px; }
+      .answer .ask .know .askAn {
+        font-size: 12px;
+        padding-top: 30px;
+        border-bottom: 1px dashed #5b0906; }
+        .answer .ask .know .askAn span {
+          height: 30px;
+          width: 30px;
+          font-size: 18px;
+          color: #fff;
+          background: #5b0906;
+          border-radius: 50%; }
+        .answer .ask .know .askAn p {
+          height: 30px;
+          line-height: 30px; }
+        .answer .ask .know .askAn i {
+          line-height: 25px; }
+    .answer .ask .knowShow {
+      margin-top: 30px; }
+      .answer .ask .knowShow ul li {
+        padding-bottom: 18px; }
+        .answer .ask .knowShow ul li span {
+          padding-left: 13px; }
+  .answer .linkWeb {
+    width: 1000px;
+    margin: 0 auto; }
+    .answer .linkWeb ul {
+      margin-top: 20px;
+      margin-right: -10px; }
+      .answer .linkWeb ul li {
+        float: left;
+        border-right: 1px solid #5b0906;
+        color: #5b0906;
+        padding-left: 11px;
+        padding-right: 11px; }
+
+.foot {
+  height: 335px;
+  width: 100%;
+  margin-top: 35px;
+  background: url(../image/foot.png); }
+  .foot .footCon {
+    width: 1000px;
+    margin: 25px auto; }
+    .foot .footCon .footNav {
+      margin-left: 95px;
+      padding-top: 50px; }
+      .foot .footCon .footNav li {
+        float: left;
+        padding-right: 24px; }
+        .foot .footCon .footNav li a {
+          color: #fff; }
+    .foot .footCon .last {
+      width: 540px;
+      margin: 36px auto; }
+      .foot .footCon .last p {
+        padding-top: 16px;
+        padding-left: 140px;
+        color: #fff; }
